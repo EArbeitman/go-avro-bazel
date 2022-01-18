@@ -1,0 +1,18 @@
+{
+  "namespace": "com.compass.testing.testmviews.test.v1",
+  "name": "TestEventValue",
+  "type": "record",
+  "fields": [
+    {
+      "name": "recordValue",
+      "type": "int",
+      "default": -1
+    },
+    {
+      "name": "lastUpdatedAt",
+      "type": "long",
+      "default": -1,
+      "logicalType": "timestamp-millis"
+    }
+   ]
+}
